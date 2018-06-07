@@ -117,12 +117,12 @@ class Project extends Component {
     const { project } = this.props;
     return (
       <Ct>
-        <ImageMain src={`/${project.name}_main.jpg`} />
+        <ImageMain src={`${project.name}_main.jpg`} />
         <div>
-          <ImageSub src={`/${project.name}_sub_1.jpg`} />
-          <ImageSub src={`/${project.name}_sub_2.jpg`} />
-          <ImageSub src={`/${project.name}_sub_3.jpg`} />
-          <ImageSub src={`/${project.name}_sub_4.jpg`} />
+          <ImageSub src={`${project.name}_sub_1.jpg`} />
+          <ImageSub src={`${project.name}_sub_2.jpg`} />
+          <ImageSub src={`${project.name}_sub_3.jpg`} />
+          <ImageSub src={`${project.name}_sub_4.jpg`} />
         </div>
         <Row>
           <Col>
@@ -147,7 +147,7 @@ class Project extends Component {
             )}
           </Col>
         </Row>
-        <ImageFullPage src={`/${project.name}_fullpage.jpg`} />
+        <ImageFullPage src={`${project.name}_fullpage.jpg`} />
         {project.attribution ? (
           <Attribution target="_blank" href={project.attribution}>
             Template attribution

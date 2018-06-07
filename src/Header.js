@@ -83,7 +83,7 @@ class Header extends Component {
               <b>Contact</b>
             </ContactTitle>
             <Contact>
-              <img src="/email.svg" alt="howe.alanna[at]gmail[dot]com" />
+              <img src="email.svg" alt="howe.alanna[at]gmail[dot]com" />
             </Contact>
           </Col>
         </InnerCt>
