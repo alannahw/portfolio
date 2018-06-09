@@ -43,6 +43,7 @@ const ImageSub = styled.img`
 const Title = styled.div`
   font-size: 36px;
   text-align: right;
+  font-family: ${props => props.theme.fontHeader}, sans-serif;
   @media (max-width: 700px) {
     text-align: left;
     font-size: 21px;
@@ -52,6 +53,7 @@ const Subtitle = styled.div`
   font-size: 21px;
   line-height: 2;
   text-align: right;
+  font-family: ${props => props.theme.fontHeader}, sans-serif;
   color: ${props => props.theme.textlight1};
   @media (max-width: 700px) {
     text-align: left;
@@ -65,6 +67,7 @@ const SkillList = styled.ul`
   padding: 0px;
   margin: 5px 0px;
   color: ${props => props.theme.textlight2};
+  font-family: ${props => props.theme.fontHeader}, sans-serif;
   @media (max-width: 700px) {
     text-align: left;
     font-size: 14px;

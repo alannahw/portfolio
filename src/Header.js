@@ -15,6 +15,7 @@ const InnerCt = styled.div`
 const Title = styled.div`
   font-size: 36px;
   color: ${props => props.theme.main};
+  font-family: ${props => props.theme.fontHeader}, sans-serif;
   @media (max-width: 700px) {
     font-size: 21px;
   }
@@ -22,6 +23,7 @@ const Title = styled.div`
 const Subtitle = styled.div`
   font-size: 21px;
   line-height: 2;
+  font-family: ${props => props.theme.fontHeader}, sans-serif;
   color: ${props => props.theme.textlight2};
   @media (max-width: 700px) {
     font-size: 16px;
@@ -43,6 +45,7 @@ const Contact = styled.div`
   }
 `;
 const ContactTitle = Contact.extend`
+  font-family: ${props => props.theme.fontHeader}, sans-serif;
   color: ${props => props.theme.main};
 `;
 const GreyText = styled.span`
@@ -73,9 +76,9 @@ class Header extends Component {
               home is Berlin, where she studies, works, reads and dreams her way
               through life, usually with a cup of tea in hand. She has a
               penchant for data visualisation and seems to be happily sliding
-              more and more into web development. She loves being involved in
-              projects from conception to full implementation and expands her
-              skill base daily to fill out every crack in the design process.
+              more and more into web development. She loves her work and expands
+              her skill base daily to pilot projects from conception to full
+              implementation.
             </Description>
           </Col>
           <Col>

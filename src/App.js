@@ -7,10 +7,11 @@ import Toolbar from "./Toolbar";
 import Header from "./Header";
 import _ from "lodash";
 import "./App.css";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 const CtStyle = styled.div`
   width: 100%;
-  font-family: "Century Gothic", sans-serif;
+  font-family: ${props => props.theme.fontContent}, sans-serif;
   color: ${props => props.theme.text};
   background: ${props => props.theme.bg};
 `;
@@ -19,7 +20,9 @@ const Theme = {
   text: "#333",
   textlight1: "#888",
   textlight2: "#aaa",
-  main: "#18e2c8"
+  main: "#18e2c8",
+  fontHeader: "Raleway",
+  fontContent: "Work Sans"
 };
 
 class App extends Component {
@@ -83,9 +86,19 @@ class App extends Component {
             filterType={filterType}
             filterVal={filterVal}
           />
-          {FilteredProjects.map(p => {
-            return <Project key={p.name} project={p} />;
-          })}
+          <TransitionGroup>
+            {FilteredProjects.map(p => {
+              return (
+                <CSSTransition
+                  key={`css_${p.name}`}
+                  timeout={200}
+                  classNames="fade"
+                >
+                  <Project key={`content_${p.name}`} project={p} />
+                </CSSTransition>
+              );
+            })}
+          </TransitionGroup>
         </CtStyle>
       </ThemeProvider>
     );
