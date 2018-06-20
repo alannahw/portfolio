@@ -70,12 +70,12 @@ class Header extends Component {
         <InnerCt>
           <Col>
             <Title>Alanna Howe</Title>
-            <Subtitle>Graphic & UX Designer</Subtitle>
+            <Subtitle>UX / UI Design Consultant</Subtitle>
             <Description>
-              Alanna is a freelance designer of the nomadic type who's closest
+              Alanna is a designer of the nomadic type who's closest
               home is Berlin, where she studies, works, reads and dreams her way
               through life, usually with a cup of tea in hand. She has a
-              penchant for data visualisation and seems to be happily sliding
+              penchant for data visualisation and seems to be happily stumbling
               more and more into web development. She loves her work and expands
               her skill base daily to pilot projects from conception to full
               implementation.

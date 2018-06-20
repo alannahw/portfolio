@@ -20,7 +20,7 @@ const Theme = {
   text: "#333",
   textlight1: "#888",
   textlight2: "#aaa",
-  main: "#18e2c8",
+  main: "#0cd6bb",
   fontHeader: "Raleway",
   fontContent: "Work Sans"
 };
