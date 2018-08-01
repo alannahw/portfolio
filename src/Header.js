@@ -72,13 +72,12 @@ class Header extends Component {
             <Title>Alanna Howe</Title>
             <Subtitle>UX / UI Design Consultant</Subtitle>
             <Description>
-              Alanna is a designer of the nomadic type who's closest
-              home is Berlin, where she studies, works, reads and dreams her way
-              through life, usually with a cup of tea in hand. She has a
-              penchant for data visualisation and seems to be happily stumbling
-              more and more into web development. She loves her work and expands
-              her skill base daily to pilot projects from conception to full
-              implementation.
+              Alanna is a web and graphic design professional with over seven 
+              years experience designing websites, print assets and company
+              branding. She's worked in-house and freelance and understands
+              what's required to push projects to completion. She loves her work
+              and takes every task seriously to ensure the best design for each
+              individual product.
             </Description>
           </Col>
           <Col>
