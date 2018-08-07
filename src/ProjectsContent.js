@@ -1,5 +1,16 @@
 export const Projects = [
   {
+    name: "MemoryMazeMobile",
+    title: "Memory Maze Mobile App",
+    subtitle: "May 2018 - Jul 2018",
+    skills: [
+      { id: "ux", name: "UX/UI" },
+      { id: "mobile", name: "Mobile Design" }
+    ],
+    description:
+      "Memory Maze Mobile App is the mobile version of Memory Maze flash card online app, with the extended feature of sharing and downloading lists from the online community. The focus of the design was to simplify each screen to just one main action to ensure the same smooth user flow as in the web version."
+  },
+  {
     name: "Priori",
     title: "Priori Data",
     subtitle: "Dec 2017 - Apr 2018",
