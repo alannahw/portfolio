@@ -70,14 +70,13 @@ class Header extends Component {
         <InnerCt>
           <Col>
             <Title>Alanna Howe</Title>
-            <Subtitle>UX / UI Design Consultant</Subtitle>
+            <Subtitle>UX / UI Designer</Subtitle>
             <Description>
-              Alanna is a web and graphic design professional with over seven 
-              years experience designing websites, print assets and company
-              branding. She's worked in-house and freelance and understands
-              what's required to push projects to completion. She loves her work
-              and takes every task seriously to ensure the best design for each
-              individual product.
+              Alanna is a web and graphic design professional with over seven
+              years experience designing websites, apps and company assets.
+              She's worked both in-house and freelance and is happy anywhere as
+              long as she has a cup of tea in hand. She loves her work
+              and makes sure each project gets the attention it deserves.
             </Description>
           </Col>
           <Col>

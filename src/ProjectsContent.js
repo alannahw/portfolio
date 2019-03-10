@@ -1,5 +1,16 @@
 export const Projects = [
   {
+    name: "SuitePadSP",
+    title: "SuitePad Status Page",
+    subtitle: "Oct 2018 - Nov 2018",
+    skills: [
+      { id: "ux", name: "UX/UI" },
+      { id: "web", name: "Web Design" }
+    ],
+    description:
+      "The SuitePad Status Page was intended for use both internally and externally as a quick way for both devs and clients to see the status of SuitePad's network and, importantly, what services are affected. It serves as the first layer for analysis and provides quick links to a third party website for more in depth view of the problem. Currently in development."
+  },
+  {
     name: "MemoryMazeMobile",
     title: "Memory Maze Mobile App",
     subtitle: "May 2018 - Jul 2018",
@@ -21,7 +32,7 @@ export const Projects = [
     ],
     website: "https://prioridata.com/",
     description:
-      "Priori Data is a web application that offers in depth extrapolated data on mobile apps. The data is based on the what is available public from Apple and Android, as well as data privately collected from apps themselves. I was brought in as a freelance UX Designer to work on some specific usability issues including merging graphs and tables displaying different data into a coherent single dashboard, clearly displaying new features on an already information heavy layout, as well as making UI styling recommendations."
+      "Priori Data is a web application that offers in depth extrapolated data on mobile apps. The data is based on the what is available public from Apple and Android, as well as data privately collected from apps themselves. Brought in as a freelance UX Designer I worked on selected usability issues including merging graphs and tables displaying different data into a coherent single dashboard, clearly displaying new features on an already information heavy layout, as well as giving UI redesign recommendations for the overall app."
   },
   {
     name: "MountainLife",
@@ -34,7 +45,7 @@ export const Projects = [
     attribution:
       "https://www.freepik.com/free-psd/frame-mockup-with-poster_772920.htm",
     description:
-      "Mountain Life is a commission based poster series. The brief was to create one main portrait image and several other square images which depict an ‘idyllic mountain scene’ in a ‘modern flat illustration style’. Overall it took a month to create, primarily drawn in Adobe Illustrator."
+      "Mountain Life is a commission based poster series. The brief was to create a set of posters which depict an idyllic mountain scene in a modern flat illustration style. Primarily drawn in Adobe Illustrator."
   },
   {
     name: "MemoryMaze",
@@ -43,7 +54,7 @@ export const Projects = [
     skills: [{ id: "ux", name: "UX/UI" }, { id: "web", name: "Web Design" }],
     website: "https://alannahw.github.io/memorymaze/",
     description:
-      "Memory Maze is an extended flash card web application which tracks the user’s progress and customises an ideal revision plan. It uses Ebbinghaus’ forgetting curve to assume memory retention over time, coupled with game scores it calculates an estimated curve and predicts the next revision date. The game is a variant of the Leitner system for learning flashcards, also known as spaced repetition. The app is an open source project in progress. A demo version can be found here:"
+      "Memory Maze is an extended flash card web application which tracks the user’s progress and customises an ideal revision plan. It uses Ebbinghaus’ forgetting curve to assume memory retention over time, coupled with game scores it calculates an estimated curve and predicts the next revision date. The game is a variant of the Leitner system for learning flashcards, also known as spaced repetition. A demo version can be found here:"
   },
   {
     name: "Kronos",
